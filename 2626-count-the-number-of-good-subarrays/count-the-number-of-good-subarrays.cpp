@@ -14,7 +14,7 @@ public:
             if (same >= k) {
                 ans += n - right;
             }
-            --cnt[nums[left]];
+            cnt[nums[left]]--;
             same -= cnt[nums[left]];
         }
         return ans;
