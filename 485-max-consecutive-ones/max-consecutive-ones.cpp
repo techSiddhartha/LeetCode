@@ -6,7 +6,7 @@ public:
         int m=0;
         int n = nums.size();
 
-        for(int z=0;z<n;z++){
+        while(j<n){
             if(nums[i]==1 && nums[j]==1){
                 j++;
             }else{
